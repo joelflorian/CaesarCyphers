@@ -14,7 +14,7 @@ public class Main {
 		//ABCDEFGHIJKLMNOPQRST... if I select a key=5, then count 5 units to the right of the letter
 		//MJQQT	[Cypher text] (with key=5)
 		//String.charAt
-		
+		//second change comment
 	}
 
 }
