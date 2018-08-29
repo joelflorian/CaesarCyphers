@@ -4,7 +4,7 @@ public class CaesarCypher {
 	//final: ese valor no cambia
 	//Static:
 	private int key; //todas las instancias van a tener un key, en este caso distinto
-	private final static String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+	private final static String alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 			//Let key=4, then EFGHIJKLM...ZABCD
 			
 	private static String shiftedAlphabet;
