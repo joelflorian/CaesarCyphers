@@ -19,6 +19,7 @@ public class CaesarCypher {
 		//archivo esta "Dirty".
 		//Commit: Lo guardo en el repositorio local
 		//Commit and push: lo guardo en el repositorio local y remoto
+		//Staged van a ser grabados cuando haga el push
 	}
 	
 	public String encode(String clearText){
