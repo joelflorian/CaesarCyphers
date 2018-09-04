@@ -15,6 +15,11 @@ public class Main {
 		//MJQQT	[Cypher text] (with key=5)
 		//String.charAt
 		//second change comment
-	}
+		//old way of looking at errors: System.out.println(getKey()), we should use debugger.
+		CaesarCypher cypher = new CaesarCypher(3);
+		String clear ="HELLO"; //output should be "KHOOR"
+		String cyphered = cypher.encode(clear);
+		System.out.println(cyphered);
 
+}
 }

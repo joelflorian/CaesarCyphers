@@ -15,7 +15,17 @@ public class CaesarCypher {
 		String rightSubstring = alphabet.substring(key);
 		shiftedAlphabet = rightSubstring + leftSubstring;
 		
+		//simbolo de '>' al lado del archivo significa q hice cambios despues del ultimo commit, el
+		//archivo esta "Dirty".
 		//Commit: Lo guardo en el repositorio local
 		//Commit and push: lo guardo en el repositorio local y remoto
+	}
+	
+	public String encode(String clearText){
+		String cypheredText = "";
+		for (int i=0; i < clearText.length(); i++){
+			cypheredText += shiftedAlphabet.charAt(alphabet.indexOf(clearText.charAt(i)));
+		}
+		return cypheredText;
 	}
 }
