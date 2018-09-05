@@ -20,6 +20,6 @@ public class Main {
 		String clear ="HELLO"; //output should be "KHOOR"
 		String cyphered = cypher.encode(clear);
 		System.out.println(cyphered);
-
+		//this is the test comment
 }
 }
